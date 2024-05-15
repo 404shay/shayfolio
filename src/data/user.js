@@ -7,8 +7,8 @@ const INFO = {
 	},
 
 	socials: {
-		github: "https://github.com/404-shay",
-		linkedin: "https://linkedin.com/shay-paris",
+		github: "https://github.com/404shay",
+		linkedin: "https://linkedin.com/in/shay-paris",
 		researchgate: "https://www.researchgate.net/profile/Shay-Paris",
 		wikipedia: "https://en.wikipedia.org/wiki/Special:Contributions/Yumepost",
 	},
