@@ -2,15 +2,17 @@ import React from "react";
 
 function article_1() {
 	return {
-		date: "7 May 2023",
-		title: "The Benefits of Cloud Computing",
+		date: "9 November 2023",
+		title: "An Introduction to Email Authentication for Legal Professionals",
 		description:
-			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
+			"Originally written for The Lawmatics Blog & subsequently picked up by the National Law Review.",
 		keywords: [
-			"The Benefits of Cloud Computing",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Shay Paris",
+			"Deliverability",
+			"DMARC",
+			"SPF",
+			"DKIM",
+			"Email Authentication",
 		],
 		style: `
 				.article-content {
@@ -41,16 +43,19 @@ function article_1() {
 
 function article_2() {
 	return {
-		date: "7 May 2023",
-		title: "Artificial Intelligence in Healthcare",
+		date: "15 October 2023",
+		title: "Understanding Domain and IP Reputation in Email Deliverability",
 		description:
-			"AI is transforming the healthcare industry, from improving patient outcomes to streamlining operations. Discover the latest applications of this game-changing technology.",
+			"Originally written for The Lawmatics Blog & subsequently picked up by the National Law Review.",
 		style: ``,
 		keywords: [
-			"Artificial Intelligence in Healthcare",
-			"Tharindu",
-			"Tharindu N",
-			"Tharindu Nayanajith",
+			"Shay Paris",
+			"Deliverability",
+			"Sender Reputation",
+			"Blocklist",
+			"Blacklist",
+			"Domain Reputation",
+			"IP Reputation",
 		],
 		body: (
 			<React.Fragment>
