@@ -33,46 +33,46 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Yumepost",
+			title: "/yumepost/",
 			description:
 				"Building a site to serve as a central location for some of my harebrained email/abuse prevention schemes. It's also an excuse to spin up more microservers and learn more about Django.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "mailbox.gif",
 			linkText: "View Project",
-			link: "https://github.com/yumepost",
+			link: "https://yumepost.net",
 		},
 
 		{
-			title: "Magpie",
+			title: "/magpie/",
 			description:
-				"I use a bunch of different scripts and tools to make my day-to-day work easier. Compiling them into a single toolbox to keep things organized and easily replicable.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"I use different scripts and tools to make my day-to-day work easier. Compiling them into a single toolbox to keep things organized and easily replicable.",
+			logo: "magpie.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Operation: Fawn Redux",
+			title: "/fleet_fawn_redux/",
 			description:
-				"I recently bought a 1960s cigarette vending machine from an antique shop. We finally managed to get it inside and it's sitting in my dining room. What the heck do I do with it now?",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"I recently bought a 1960s Fawn Fleetwood cigarette vending machine from an antique shop. We finally managed to get it inside and it's sitting in my dining room. What the heck do I do with it now?",
+			logo: "fallout_vending.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Moisture Farming",
+			title: "/ATL_moisture_farm/",
 			description:
 				"I'm an excellent gardener with terrible object permanence. I have a bunch of microcontrollers hanging around. What could go wrong?",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "naboo_plant.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Smarta",
+			title: "/smarta/",
 			description:
 				"I love split flap displays (AKA Solari boards) and MARTA, Atlanta's principal public transport operator. Let's incorporate the two!",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "smarta.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
