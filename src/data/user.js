@@ -1,36 +1,34 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "shayfolio",
+		name: "Shay Paris",
+		email: "jobs@hireshay.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		github: "https://github.com/404-shay",
+		linkedin: "https://linkedin.com/shay-paris",
+		researchgate: "https://www.researchgate.net/profile/Shay-Paris",
+		wikipedia: "https://en.wikipedia.org/wiki/Special:Contributions/Yumepost",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Hi, I'm Shay.",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I've been helping platforms tackle all kinds of email and abuse problems since 2018.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"I'm based out of Atlanta and spend as much time as possible with my wife and our two dogs.Recent obessions include restoring old vending machines, trying to grow lemons in zone 7b, and Solari boards.",
 	},
 
 	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
+		title: "Did you know that I also have a degree in English?",
 		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
+			"I'm a total nerd about documentation and love a good hyperlink. These days most of my writing ends up in internal wikis or policies, but here are a few that I can share!",
 	},
 
 	projects: [

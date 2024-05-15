@@ -4,10 +4,10 @@ import { Helmet } from "react-helmet";
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
 	faGithub,
-	faStackOverflow,
-	faInstagram,
+	faLinkedin,
+	faResearchgate,
+	faWikipediaW,
 } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -104,8 +104,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
-											alt="about"
+											src="homepage.png"
+											alt="A blue Postbriefkasten or German public mailbox"
 											className="homepage-image"
 										/>
 									</div>
@@ -114,16 +114,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-							<a
-								href={INFO.socials.twitter}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faTwitter}
-									className="homepage-social-icon"
-								/>
-							</a>
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -135,22 +125,32 @@ const Homepage = () => {
 								/>
 							</a>
 							<a
-								href={INFO.socials.stackoverflow}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faStackOverflow}
+									icon={faLinkedin}
 									className="homepage-social-icon"
 								/>
 							</a>
 							<a
-								href={INFO.socials.instagram}
+								href={INFO.socials.researchgate}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faInstagram}
+									icon={faResearchgate}
+									className="homepage-social-icon"
+								/>
+							</a>
+							<a
+								href={INFO.socials.wikipedia}
+								target="_blank"
+								rel="noreferrer"
+							>
+								<FontAwesomeIcon
+									icon={faWikipediaW}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -191,7 +191,9 @@ const Homepage = () => {
 							<div className="homepage-works">
 								<Works />
 							</div>
+							
 						</div>
+
 
 						<div className="page-footer">
 							<Footer />

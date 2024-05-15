@@ -2,10 +2,10 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
-	faTwitter,
+	faWikipediaW,
 	faGithub,
 	faLinkedin,
-	faInstagram,
+	faResearchgate,
 } from "@fortawesome/free-brands-svg-icons";
 
 import INFO from "../../data/user";
@@ -16,14 +16,14 @@ const Socials = () => {
 	return (
 		<div className="socials">
 			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
+				<a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faTwitter}
+							icon={faLinkedin}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Twitter</div>
+					<div className="social-text">shay-paris</div>
 				</a>
 			</div>
 
@@ -35,39 +35,39 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on GitHub</div>
+					<div className="social-text">404shay</div>
 				</a>
 			</div>
 
 			<div className="social">
 				<a
-					href={INFO.socials.linkedin}
+					href={INFO.socials.researchgate}
 					target="_blank"
 					rel="noreferrer"
 				>
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faLinkedin}
+							icon={faResearchgate}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on LinkedIn</div>
+					<div className="social-text">shay-paris</div>
 				</a>
 			</div>
 
 			<div className="social">
 				<a
-					href={INFO.socials.instagram}
+					href={INFO.socials.wikipedia}
 					target="_blank"
 					rel="noreferrer"
 				>
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faInstagram}
+							icon={faWikipediaW}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Instagram</div>
+					<div className="social-text">yumepost</div>
 				</a>
 			</div>
 
