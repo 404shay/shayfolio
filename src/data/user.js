@@ -20,9 +20,9 @@ const INFO = {
 	},
 
 	about: {
-		title: "",
+		title: "Looking for a conversation starter?",
 		description:
-			"I'm based out of Atlanta and spend as much time as possible with my wife and our two dogs.Recent obessions include restoring old vending machines, trying to grow lemons in zone 7b, and Solari boards.",
+			"I'm based out of Atlanta and spend as much time as possible with my wife and our two dogs. Recent interests include restoring old vending machines, trying to grow lemons in zone 7b, and Solari boards.",
 	},
 
 	articles: {
